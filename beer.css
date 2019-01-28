@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0px;
     padding: 0px;
     font-family: "Arial", sans-serif;
@@ -20,14 +20,14 @@ body{
     clear: both;
 }
 
-.section-title{
+.section-title {
     text-transform: uppercase;
     font-size: 24px;
 }
 
 .features,
 .order {
-   background-color: rgb(255, 203, 120);
+    background-color: rgb(255, 203, 120);
 }
 
 .page-footer {
@@ -38,32 +38,31 @@ body{
     background-color: #ede5d8;
 }
 
-.page-header{
+.page-header {
     background-color: #a86315;
     min-height: 380px;
     padding-top: 35px;
     background-image: url("1.jpg");
-    background-repeat: repeat-x;
-
-    
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.page-header p{
+.page-header p {
     color: #fefffb;
     text-align: center;
     font-size: 55pt;
     line-height: 65px;
-  
+
 }
 
-.header-logo{
+.header-logo {
     width: 140px;
     height: auto;
     float: left;
     margin-left: 20px;
 }
 
-.header-logo img{
+.header-logo img {
     width: 140px;
     height: auto;
 }
@@ -96,11 +95,11 @@ body{
     color: rgb(253, 255, 249);
 }
 
-.header-nav a:hover{
+.header-nav a:hover {
     text-decoration: underline;
 }
 
-.header-nav a:active{
+.header-nav a:active {
     text-decoration: underline;
     color: rgba(253, 255, 249, 0.3);
 }
@@ -152,7 +151,7 @@ body{
     padding-bottom: 55px;
 }
 
-.features ul{
+.features ul {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -184,7 +183,7 @@ body{
     background-repeat: no-repeat;
 }
 
-.feature-brew::before{
+.feature-brew::before {
     background-position: 0px 0px;
 }
 
@@ -222,7 +221,7 @@ body{
     position: relative;
 }
 
-.item-1{
+.item-1 {
     border-right: none;
 }
 
@@ -236,7 +235,7 @@ body{
     border-collapse: collapse;
 }
 
-.catalog-item tbody{
+.catalog-item tbody {
     font-weight: bold;
 }
 
@@ -248,7 +247,7 @@ tfoot {
     border-top: 1px solid grey;
 }
 
-.catalog-item .ingredient tr{
+.catalog-item .ingredient tr {
     padding-top: 15px;
 }
 
@@ -268,9 +267,11 @@ tfoot {
     padding-left: 200px;
 }
 
-.reference h3 {
+.reference-title {
     text-transform: uppercase;
-    font-size: 18px;
+    font-weight: bold;
+    display: inline;
+    font-size: 24px;
 }
 
 .reference.container {
@@ -296,7 +297,7 @@ tfoot {
     padding-top: 20px;
 }
 
-.reference dd + dt {
+.reference dd+dt {
     margin-top: 70px;
 }
 
@@ -312,11 +313,6 @@ tfoot {
 .reference dd p {
     margin: 0;
     width: 500px;
-}
-
-.reference-title {
-    display: inline;
-    font-size: 24px;
 }
 
 .reference-source {
@@ -348,11 +344,11 @@ tfoot {
     position: relative;
 }
 
-.publication-article{
+.publication-article {
     position: relative;
 }
 
-.publication-article::before{
+.publication-article::before {
     content: "";
     position: absolute;
     top: 0px;
@@ -370,11 +366,11 @@ tfoot {
     float: right;
 }
 
-.publication-article{
+.publication-article {
     padding-bottom: 10px;
 }
 
-.publication h2{
+.publication h2 {
     padding-left: 110px;
 }
 
@@ -393,7 +389,7 @@ tfoot {
 
 .Assortiment h2 {
     padding-left: 110px;
-    
+
 }
 
 .Assortiment-item {
@@ -425,8 +421,8 @@ tfoot {
 .Assortiment-persent,
 .Assortiment-kkal,
 .Assortiment-volume {
-   text-align: center;
-   width: 60px;
+    text-align: center;
+    width: 60px;
 }
 
 .Assortiment-price {
@@ -462,7 +458,7 @@ tfoot {
     font-size: 16px;
 }
 
-.order-form{
+.order-form {
     width: 830px;
 }
 
@@ -478,15 +474,15 @@ tfoot {
     float: right;
 }
 
-.order-form-group-left-part{
+.order-form-group-left-part {
     width: 420px;
 }
 
-.order-form-group-right-part{
+.order-form-group-right-part {
     width: 370px;
 }
 
-.order-form input[type="number"]{
+.order-form input[type="number"] {
     height: 34px;
     padding: 5px 15px;
     font: inherit;
@@ -562,7 +558,7 @@ tfoot {
     padding-bottom: 50px;
 }
 
-.footer-logo{
+.footer-logo {
     width: 140px;
     height: auto;
     float: left;
@@ -589,7 +585,7 @@ tfoot {
 }
 
 
-.footer-menu li{
+.footer-menu li {
     float: left;
     text-transform: uppercase;
     margin-right: 30px;
@@ -600,7 +596,7 @@ tfoot {
     margin-left: 50px;
 }
 
-.footer-menu li:last-child{
+.footer-menu li:last-child {
     margin-right: 0px;
 }
 
@@ -634,12 +630,12 @@ tfoot {
     vertical-align: middle;
 }
 
-.bgr-color-1{
+.bgr-color-1 {
     background-color: rgb(27, 27, 27);
 }
 
-.bgr-color-2{
-    background-color: rgb(34, 34,34);
+.bgr-color-2 {
+    background-color: rgb(34, 34, 34);
 }
 
 .footer-social a {
@@ -664,6 +660,7 @@ tfoot {
 .social-btn-vk {
     background-position: -32px 0;
 }
+
 a.social-btn-vk {
     width: 22px;
 }
